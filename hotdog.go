@@ -13,6 +13,7 @@ var (
 		"Miley Cyrus is generally accepted as attractive",
 		"Bieber is a decent looking guy",
 		"You gotta get some scented candles bro",
+		"That's actually very flattering, thank you",
 	}
 )
 
