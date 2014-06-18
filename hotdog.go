@@ -27,7 +27,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 					text-align: center; 
 					font-family: Arial,sans-serif; 
 					font-weight: bold; 
-					font-size: 52pt
+					font-size: 52t pt
 				}
 			</style>
 			<div>%s</div>
