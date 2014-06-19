@@ -14,6 +14,8 @@ var (
 		"Bieber is a decent looking guy",
 		"You gotta get some scented candles bro",
 		"That's actually very flattering, thank you",
+		"Casinos and gay bars. Last night got weird.",
+		"Hey, fuck egg shells. If one of those little fuckers falls in your scrambled eggs it's almost impossible to fish it out.",
 	}
 )
 
