@@ -17,7 +17,8 @@ var (
 		"Casinos and gay bars. Last night got weird.",
 		"Hey, fuck egg shells. If one of those little fuckers falls in your scrambled eggs it's almost impossible to fish it out.",
 		"My evenings are pretty booked up",
-		"Follow my live tweets bro?"
+		"Follow my live tweets bro?",
+		"I've got to make my kilt payment"
 	}
 )
 
