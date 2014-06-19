@@ -46,10 +46,16 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	rand.Seed(time.Now().Unix())
 	index := rand.Intn(len(thatsWhatHeSaid))
 	tmpl, err := template.New("index").Parse(HTML(htmlTemplate))
+
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
-	tmpl.Execute(w, thatsWhatHeSaid[index])
+
+	err = tmpl.Execute(w, thatsWhatHeSaid[index])
+
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
 }
 
 func init() {
