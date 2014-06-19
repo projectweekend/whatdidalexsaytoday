@@ -20,24 +20,32 @@ var (
 		"Follow my live tweets bro?",
 		"I've got to make my kilt payment",
 	}
+
+	htmlTemplate = `
+	<!doctype html>
+	<html>
+		<head>
+				<title>What Did Alex Say Today?</title>
+			<style>
+ 			div {
+ 				text-align: center; 
+ 				font-family: "Helvetica Neue",Arial,sans-serif; 
+ 				font-weight: bold; 
+ 				font-size: 52t pt
+ 			}
+			</style>
+			</head>
+	 	<body>
+	 		<div>%s</div>
+	 	</body>
+	</html>`
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	rand.Seed(time.Now().Unix())
 	index := rand.Intn(len(thatsWhatHeSaid))
 
-	fmt.Fprintf(w, fmt.Sprintf(`
-		<html>
-			<style type="text/css">
-				div {
-					text-align: center;
-					font-family: Arial,sans-serif;
-					font-weight: bold;
-					font-size: 52pt
-				}
-			</style>
-			<div>%s</div>
-		</html>`, thatsWhatHeSaid[index]))
+	fmt.Fprintf(w, fmt.Sprintf(htmlTemplate, thatsWhatHeSaid[index]))
 }
 
 func init() {
