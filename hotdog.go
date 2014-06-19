@@ -2,6 +2,7 @@ package hotdog
 
 import (
 	"fmt"
+	"html/template"
 	"math/rand"
 	"net/http"
 	"time"
@@ -36,7 +37,7 @@ var (
 			</style>
 			</head>
 	 	<body>
-	 		<div>%s</div>
+	 		<div>{{.}}</div>
 	 	</body>
 	</html>`
 )
@@ -44,8 +45,11 @@ var (
 func handler(w http.ResponseWriter, r *http.Request) {
 	rand.Seed(time.Now().Unix())
 	index := rand.Intn(len(thatsWhatHeSaid))
-
-	fmt.Fprintf(w, fmt.Sprintf(htmlTemplate, thatsWhatHeSaid[index]))
+	tmpl, err := template.New("index").Parse(HTML(htmlTemplate))
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+	tmpl.Execute(w, thatsWhatHeSaid[index])
 }
 
 func init() {
