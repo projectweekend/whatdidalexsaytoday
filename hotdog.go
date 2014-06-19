@@ -19,6 +19,7 @@ var (
 		"My evenings are pretty booked up",
 		"Follow my live tweets bro?",
 		"I've got to make my kilt payment",
+		"Oh, doing some lunges here? I'll do a couple.",
 	}
 )
 
