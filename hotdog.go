@@ -16,6 +16,8 @@ var (
 		"That's actually very flattering, thank you",
 		"Casinos and gay bars. Last night got weird.",
 		"Hey, fuck egg shells. If one of those little fuckers falls in your scrambled eggs it's almost impossible to fish it out.",
+		"My evenings are pretty booked up",
+		"Follow my live tweets bro?"
 	}
 )
 
@@ -27,9 +29,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		<html>
 			<style type="text/css">
 				div {
-					text-align: center; 
-					font-family: Arial,sans-serif; 
-					font-weight: bold; 
+					text-align: center;
+					font-family: Arial,sans-serif;
+					font-weight: bold;
 					font-size: 52pt
 				}
 			</style>
