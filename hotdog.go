@@ -1,9 +1,11 @@
 package hotdog
 
 import (
+	"github.com/gorilla/mux"
 	"html/template"
 	"math/rand"
 	"net/http"
+	"strconv"
 	"time"
 )
 
@@ -23,21 +25,39 @@ var (
 	}
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	rand.Seed(time.Now().Unix())
-	index := rand.Intn(len(thatsWhatHeSaid))
-
+func render(w http.ResponseWriter, i int) {
 	tmpl, err := template.New("index.html").ParseFiles("index.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 
-	err = tmpl.Execute(w, thatsWhatHeSaid[index])
+	err = tmpl.Execute(w, thatsWhatHeSaid[i])
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 }
 
+func saying(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+
+	id, err := strconv.Atoi(vars["id"])
+	if id > len(thatsWhatHeSaid) || err != nil {
+		http.Redirect(w, r, "http://whatdidalexsaytoday.com", http.StatusFound)
+		return
+	}
+
+	render(w, id)
+}
+
+func index(w http.ResponseWriter, r *http.Request) {
+	rand.Seed(time.Now().Unix())
+
+	render(w, rand.Intn(len(thatsWhatHeSaid)))
+}
+
 func init() {
-	http.HandleFunc("/", handler)
+	r := mux.NewRouter()
+	r.HandleFunc("/{id}", saying)
+	r.HandleFunc("/", index)
+	http.Handle("/", r)
 }
