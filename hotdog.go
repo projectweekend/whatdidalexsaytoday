@@ -14,6 +14,7 @@ var (
 		"My chiropractor wanted to massage my glutes with a large spoon",
 		"Miley Cyrus is generally accepted as attractive",
 		"Bieber is a decent looking guy",
+		"I've got man hands",
 		"You gotta get some scented candles bro",
 		"That's actually very flattering, thank you",
 		"Casinos and gay bars. Last night got weird.",
