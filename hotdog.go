@@ -24,6 +24,8 @@ var (
 		"I've got to make my kilt payment",
 		"Oh, doing some lunges here? I'll do a couple.",
 		"I do it on the train all the time.",
+		"Aw man, I do not like underwear.",
+		"Everyone wants to talk about me.",
 	}
 )
 
