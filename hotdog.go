@@ -27,6 +27,7 @@ var (
 		"Aw man, I do not like underwear.",
 		"#artstudent",
 		"Holy shit! This dress is so expensive!",
+		"What's the big deal with selfies?",
 		"Everyone wants to talk about me.",
 	}
 )
