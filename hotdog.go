@@ -26,6 +26,8 @@ var (
 		"I do it on the train all the time.",
 		"Aw man, I do not like underwear.",
 		"Everyone wants to talk about me.",
+		"Scoops, y'all.",
+		"Feel better, boo.",
 	}
 )
 
