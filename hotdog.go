@@ -31,6 +31,7 @@ var (
 		"Everyone wants to talk about me.",
 		"Scoops, y'all.",
 		"Feel better, boo.",
+		"Ruby FTW!",
 		"I lose mad 'el bees' when I cut gluten out of my diet.",
 	}
 )
