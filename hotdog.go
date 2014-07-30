@@ -32,6 +32,7 @@ var (
 		"Scoops, y'all.",
 		"Feel better, boo.",
 		"Ruby FTW!",
+		"I've had balls in my mouth before",
 		"I lose mad 'el bees' when I cut gluten out of my diet.",
 	}
 )
