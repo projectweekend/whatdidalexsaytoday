@@ -34,6 +34,7 @@ var (
 		"Ruby FTW!",
 		"I've had balls in my mouth before",
 		"I lose mad 'el bees' when I cut gluten out of my diet.",
+		"Yeah, I once dated a girl who was really into The Lost Boys.",
 	}
 )
 
