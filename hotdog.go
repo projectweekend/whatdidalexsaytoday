@@ -36,6 +36,7 @@ var (
 		"I lose mad 'el bees' when I cut gluten out of my diet.",
 		"Yeah, I once dated a girl who was really into The Lost Boys.",
 		"Is there a Mr. Virginia competition or something?",
+		"When I was a kid, my dad used to wake me up by saying that every day is an opportunity, and today I have the opportunity for SUCCESS.",
 	}
 )
 
