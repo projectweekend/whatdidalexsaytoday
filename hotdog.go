@@ -36,9 +36,11 @@ var (
 		"I lose mad 'el bees' when I cut gluten out of my diet.",
 		"Yeah, I once dated a girl who was really into The Lost Boys.",
 		"Is there a Mr. Virginia competition or something?",
-		"I did zumba with my mom last week",
+		"I did zumba with my mom last week.",
 		"When I was a kid, my dad used to wake me up and say, 'Wake up! Wake up! Today is opportunity day, and today you have the opportunity to succeed!'",
 		"Ever since the accident of 2012, I don't arm wrestle any more.",
+		"I'm actually quite the pie aficionado.",
+		"I prefer to have my shirt off all the time [in public].",
 	}
 )
 
