@@ -36,6 +36,7 @@ var (
 		"I lose mad 'el bees' when I cut gluten out of my diet.",
 		"Yeah, I once dated a girl who was really into The Lost Boys.",
 		"Is there a Mr. Virginia competition or something?",
+		"The bro language is all about mouth-feel.",
 	}
 )
 
