@@ -41,6 +41,7 @@ var (
 		"Ever since the accident of 2012, I don't arm wrestle any more.",
 		"I'm actually quite the pie aficionado.",
 		"I prefer to have my shirt off all the time [in public].",
+		"The bro language is all about mouth-feel.",
 	}
 )
 
