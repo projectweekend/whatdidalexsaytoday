@@ -42,6 +42,7 @@ var (
 		"I'm actually quite the pie aficionado.",
 		"I prefer to have my shirt off all the time [in public].",
 		"The bro language is all about mouth-feel.",
+		"I've got a bro injury-- I messed up with hand with too many high fives."
 	}
 )
 
