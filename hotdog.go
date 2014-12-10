@@ -42,6 +42,9 @@ var (
 		"I'm actually quite the pie aficionado.",
 		"I prefer to have my shirt off all the time [in public].",
 		"The bro language is all about mouth-feel.",
+		"I've got a bro injury–I messed up my hand with too many high fives.",
+		"If I bring in breakfast for you guys, it won't be donuts—it'll be salad.",
+		"Alright, I'll touch your wood.",
 	}
 )
 
