@@ -46,6 +46,7 @@ var (
 		"If I bring in breakfast for you guys, it won't be donuts—it'll be salad.",
 		"Alright, I'll touch your wood.",
 		"What are you, some kind of robit?",
+		"Solar jokes are only second to lunar jokes.",
 	}
 )
 
