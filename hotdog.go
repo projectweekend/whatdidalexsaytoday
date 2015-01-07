@@ -47,6 +47,7 @@ var (
 		"Alright, I'll touch your wood.",
 		"What are you, some kind of robit?",
 		"Solar jokes are only second to lunar jokes.",
+		"I guess I don't have weak wrists like you guys.",
 	}
 )
 
