@@ -49,6 +49,7 @@ var (
 		"Solar jokes are only second to lunar jokes.",
 		"I guess I don't have weak wrists like you guys.",
 		"I have that same shirt but without the sleeves.",
+		"You don't ride the falcon, you soar.",
 	}
 )
 
